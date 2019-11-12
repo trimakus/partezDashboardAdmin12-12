@@ -100,7 +100,7 @@ export default class UserProfile extends Component {
 		this.refs.deleteConfirmationDialog.open();
 		this.setState({ selectedUser: data,indexOfSeletedUser:index });
 	}
-	/************************************************n*********b*****************************************/
+	/************************************************n********b*****************************************/
 	deleteUserPermanently() {
 		const { selectedUser,indexOfSeletedUser } = this.state;
 		let users = this.state.users;
